@@ -196,30 +196,15 @@
    </div>
    <div id="spacer"><p></p></div>
 
-    <div id="footer">
 
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- EPSG.io -->
-      <ins class="adsbygoogle"
-           style="display:inline-block;width:728px;height:90px"
-           data-ad-client="ca-pub-0328423815528922"
-           data-ad-slot="6564733120"></ins>
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      <div id="footer">    
+          <div id="foot">
+			    <p>Copyright &copy; 2016 Geoscience Division, Pacific Community (SPC)</p>
+        		<p id="copyright">Powered by EPSG database {{version}}</p>
+          </div>
+        </div>
 
-      <div id="foot">
-        <p id="klokan-logo">
-          <a href="//www.klokantech.com/" title=""><img src="./img/klokan-logo-grey.png" alt="" /></a>
-        </p>
-        <p id="mzk-logo">
-          <a href="//www.mzk.cz/" title=""><img src="./img/hzk-logo.png" alt="" /></a>
-        </p>
-        <p>Find a coordinate system and get position on a map. Powered by EPSG database {{version}}</p>
-        <p id="copyright">Copyright &copy; 2016</p>
-      </div>
-    </div>
-
+   
       %if num_results == 0:
         %if num_kind == 0:
           <script src="/js/results.js"></script>
