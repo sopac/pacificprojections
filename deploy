@@ -1,0 +1,2 @@
+rsync -az --progress -e "ssh -C -i ~/Dropbox/pacgeo.pem" . ubuntu@www.pacgeo.org:/opt/proj/
+
